@@ -1,6 +1,12 @@
-// AlashPID без железа: виртуальная печка. Подойдёт любая плата, ничего подключать не нужно.
-// Откройте Serial Plotter (115200): видно, как температура выходит на уставку. Уставка меняется каждые 40 секунд.
-// Попробуйте изменить Kp, Ki, Kd и посмотреть, как меняется кривая: слишком большие значения дают раскачку.
+// [ru] AlashPID без железа: виртуальная печка. Подойдёт любая плата, ничего подключать не нужно.
+//      Откройте Serial Plotter (115200): видно, как температура выходит на уставку. Уставка меняется каждые 40 секунд.
+//      Попробуйте изменить Kp, Ki, Kd и посмотреть, как меняется кривая: слишком большие значения дают раскачку.
+// [kk] AlashPID құрылғысыз: виртуалды пеш. Кез келген тақта жарайды, ештеңе қосудың керегі жоқ.
+//      Serial Plotter-ді ашыңыз (115200): температураның уставкаға шығуы көрінеді. Уставка әр 40 секунд сайын өзгереді.
+//      Kp, Ki, Kd өзгертіп, қисық қалай өзгеретінін көріңіз: тым үлкен мәндер тербеліс тудырады.
+// [en] AlashPID without hardware: a virtual oven. Any board works, nothing to connect.
+//      Open Serial Plotter (115200): you see the temperature reach the setpoint. The setpoint changes every 40 seconds.
+//      Try changing Kp, Ki, Kd and watch how the curve changes: values that are too large make it oscillate.
 #include <AlashPID.h>
 
 AlashPID pid(2.0f, 0.4f, 0.0f);

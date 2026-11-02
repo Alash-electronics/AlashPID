@@ -1,5 +1,9 @@
-// AlashPID: самопроверка. Печатает коэффициенты, пределы, ошибку, слагаемые P, I, D и подсказки.
-// Язык подсказок: LANG_RU, LANG_KK или LANG_EN.
+// [ru] AlashPID: самопроверка. Печатает коэффициенты, пределы, ошибку, слагаемые P, I, D и подсказки.
+//      Язык подсказок: LANG_RU, LANG_KK или LANG_EN.
+// [kk] AlashPID: өзін-өзі тексеру. Коэффициенттерді, шектерді, қатені, P, I, D құраушыларын және кеңестерді басып шығарады.
+//      Кеңес тілі: LANG_RU, LANG_KK немесе LANG_EN.
+// [en] AlashPID: self-check. Prints the gains, limits, error, the P, I, D terms and tips.
+//      Tips language: LANG_RU, LANG_KK or LANG_EN.
 #include <AlashPID.h>
 
 AlashPID pid(2.0f, 0.0f, 0.0f);

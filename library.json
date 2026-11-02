@@ -1,6 +1,6 @@
 {
   "name": "AlashPID",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PID controller with anti-windup, derivative on measurement, filter, slew limit, bumpless transfer and relay auto-tuning; no dependencies",
   "keywords": "pid, controller, regulator, autotune, temperature, motor, speed, control, windup, ziegler-nichols",
   "repository": {
